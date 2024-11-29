@@ -1,2 +1,2 @@
-# satosa-openid4vci
-Credential Issuer implementation as a front-end to SATOSA
+# idpyoidc_backend
+Separate forked idpyoidc_backend for satosa

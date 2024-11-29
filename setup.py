@@ -11,16 +11,14 @@ def readme():
         return f.read()
 
 
-_pkg_name = "satosa_openid4vci"
+_pkg_name = "idpyoidc_backend"
 
-with open(f'src/{_pkg_name}/__init__.py', 'r') as fd:
-    version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
-                        fd.read(), re.MULTILINE).group(1)
+version = "0.0.1"
 
 setup(
     name=_pkg_name,
     version=version,
-    description="OpenID4VCI Credential Issuer implemented as a SATOSA Frontend",
+    description="Identity python OIDC backend module for Satosa",
     long_description=readme(),
     long_description_content_type="text/markdown",
     classifiers=[

@@ -1,1 +1,0 @@
-./entity.py flask_wallet conf.json flask_wallet
