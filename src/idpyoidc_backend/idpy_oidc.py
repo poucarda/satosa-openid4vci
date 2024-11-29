@@ -12,9 +12,9 @@ from satosa.backends.base import BackendModule
 from satosa.internal import AuthenticationInformation
 from satosa.internal import InternalData
 import satosa.logging_util as lu
-from satosa.backends.exception import SATOSAAuthenticationError
-from satosa.backends.exception import SATOSAError
-from satosa.backends.response import Redirect
+from satosa.exception import SATOSAAuthenticationError
+from satosa.exception import SATOSAError
+from satosa.response import Redirect
 
 
 UTC = datetime.timezone.utc
